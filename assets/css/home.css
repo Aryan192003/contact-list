@@ -1,0 +1,118 @@
+body{
+    background-image: url("/images/2927262.jpg");
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(20, 234, 194);
+}
+
+
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul{
+    
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+    
+    
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 47vw;
+    background-image: linear-gradient(to right, #094250 0%, #092b41 100%);
+    justify-content: space-between;
+    /* opacity: 0.8; */
+    align-items: center;
+    margin: 8px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 10px;
+    transition:  box-shadow ease-in-out 0.1s;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+
+li:hover{
+    display: flex;
+    flex-wrap: wrap;
+    width: 47vw;
+    background-image: linear-gradient(to right, #181a1b 0%, #ccd8e0 100%);
+    justify-content: space-between;
+    /* opacity: 0.8; */
+    align-items: center;
+    margin: 8px;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 10px;
+    transition:  box-shadow ease-in-out 0.1s;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(162, 178, 195);
+
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    outline: none;
+    border: none;
+    font-weight: 500;
+    color: white;
+    border-radius: 18px;
+     font-family: Verdana,
+     Geneva,
+     Tahoma,
+     sans-serif;
+     transition: all ease-in-out 0.1s;  
+}
+
+button:hover{
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #ee560b 0%, #18e366 100%);
+    outline: none;
+    border: none;
+    font-weight: 500;
+    color: white;
+    border-radius: 18px;
+     font-family: Verdana,
+     Geneva,
+     Tahoma,
+     sans-serif;
+     transition: all ease-in-out 0.1s;
+}
